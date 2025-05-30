@@ -1,62 +1,33 @@
+FINAL YEAR PROJECT : Sabbas16 
+## ⚙️ Setup & Development
 
-# Welcome to your BBK Bot project
-
-
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### **1. Clone the repository**
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/sabbas16/bbk_bot_timetable.git
+cd bbk_bot_timetable
 ```
 
-**Edit a file directly in GitHub**
+### **2. Install dependencies**
+```sh
+npm install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### **3. Start the development server**
+```sh
+npm run dev
+```
+Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
 
-## What technologies are used for this project?
+You can deploy the frontend to platforms like **Vercel**, **Netlify**, or **GitHub Pages**.  
+Supabase Edge Functions are deployed automatically via the Supabase dashboard.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔑 Environment Variables
 
-## How can I deploy this project?
-
-You can deploy this project using various hosting platforms like Vercel, Netlify, or GitHub Pages.
-
-## Can I connect a custom domain to my project?
-
-Yes, you can connect a custom domain depending on your hosting provider's capabilities.
+If your project requires environment variables (e.g., for Supabase or OpenAI), create a `.env` file in the root directory.  
+Example:
